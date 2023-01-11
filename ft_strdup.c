@@ -6,7 +6,7 @@
 /*   By: hpideci <@student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 09:13:11 by hpideci           #+#    #+#             */
-/*   Updated: 2023/01/09 12:39:50 by hpideci          ###   ########.fr       */
+/*   Updated: 2023/01/11 12:47:02 by hpideci          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ char	*ft_strdup(const char *s1)
 
 	i = 0;
 	len = ft_strlen(s1);
-	ptr = (char *)mallac(sizeof(char) * (len + 1));
+	ptr = (char *)malloc(sizeof(char) * (len + 1));
 	if (!ptr)
 		return (NULL);
 	while (s1[i])
