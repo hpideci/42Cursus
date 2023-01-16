@@ -6,7 +6,7 @@
 /*   By: hpideci <@student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:13:55 by hpideci           #+#    #+#             */
-/*   Updated: 2023/01/09 13:19:27 by hpideci          ###   ########.fr       */
+/*   Updated: 2023/01/16 18:08:57 by hpideci          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	unsigned int	i;
-	char		*str;
+	char			*str;
 
 	if (!(s || f))
 		return (NULL);

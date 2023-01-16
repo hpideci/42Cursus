@@ -6,7 +6,7 @@
 /*   By: hpideci <@student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 12:04:56 by hpideci           #+#    #+#             */
-/*   Updated: 2023/01/09 12:43:41 by hpideci          ###   ########.fr       */
+/*   Updated: 2023/01/16 18:08:17 by hpideci          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ unsigned int	wordcounter(const char *s, char delimiter)
 
 char	**ft_split(char const *s, char c)
 {
-	char		**arr;
+	char			**arr;
 	unsigned int	j;
 	unsigned int	a;
 

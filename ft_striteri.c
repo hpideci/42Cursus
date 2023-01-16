@@ -6,13 +6,13 @@
 /*   By: hpideci <@student.42kocaeli.com.tr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/09 13:27:18 by hpideci           #+#    #+#             */
-/*   Updated: 2023/01/09 13:29:08 by hpideci          ###   ########.fr       */
+/*   Updated: 2023/01/16 18:11:46 by hpideci          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_striter(char *s, void (*f)(unsigned int, char *))
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	unsigned int	i;
 
